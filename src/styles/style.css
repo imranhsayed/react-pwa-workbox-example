@@ -1,5 +1,9 @@
 @import 'https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900';
 
+html {
+	overflow-x: hidden;
+}
+
 body {
 	background: #221f1f;
 	color: #ffffff;
@@ -44,6 +48,12 @@ p {
 	transition: margin 0.125s ease;
 }
 
+@media only screen and (max-width: 600px) {
+	.logo {
+		width: 150px;
+	}
+}
+
 .logo svg {
 	transform: scale(0.5);
 	transform-origin: 0 0;
@@ -76,6 +86,7 @@ p {
 	font-size: 14px;
 	transition: background 0.125s ease;
 	border-radius: 3px;
+	white-space: nowrap;
 }
 
 .navigation ul li:hover {
@@ -86,6 +97,13 @@ p {
 .user-profile {
 	margin-left: auto;
 }
+
+@media only screen and (max-width: 600px) {
+	.user-profile {
+		display: none;
+	}
+}
+
 
 .user-profile .user {
 	display: flex;
@@ -136,6 +154,12 @@ p {
 	width: 500px;
 	left: 10vw;
 	top: 10vw;
+}
+
+@media only screen and (max-width: 600px) {
+	.hero .content {
+		top: 36vw;
+	}
 }
 
 .hero .content .logo {
