@@ -1,10 +1,13 @@
-# [React PWA Workbox Example](https://react-pwa-workbox-example-ogeaetsuc-imranhsayed.vercel.app/)
+# [React PWA Workbox Example](https://react-pwa-workbox-example.vercel.app/)
 
 :fire: This is a React PWA Workbox Example for learning how to build React PWA.
 
 ## Demo Site
 
-https://react-pwa-workbox-example-ogeaetsuc-imranhsayed.vercel.app/
+https://react-pwa-workbox-example.vercel.app/
+
+* Landing page
+![](demo/demo.png)
 
 ## Branch Description:
 Create a `.env` taking example from `.env-example` and Put your api key by getting it from 'https://developers.themoviedb.org/3'
@@ -25,4 +28,9 @@ Create a `.env` taking example from `.env-example` and Put your api key by getti
 - `dev` Runs webpack dev server for development ( in watch mode ) at http://localhost:8080/
 - `prod` Runs webpack build
 - `serve` Runs production server at 'http://localhost:5000/'
+
+## Deployment on vercel.
+
+* Vercel config
+![](demo/vercel-config.png)
 
