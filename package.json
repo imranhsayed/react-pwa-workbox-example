@@ -1,7 +1,7 @@
 {
-  "name": "react-workshop",
+  "name": "react-pwa-workbox-example",
   "version": "1.0.0",
-  "description": ":fire: This is a workshop for learning how to build React Applications.",
+  "description": ":fire: This is a workshop for learning how to build React PWA Applications with workbox.",
   "main": "index.js",
   "scripts": {
     "webpack-dev-server": "webpack-dev-server",
